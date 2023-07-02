@@ -4,221 +4,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NavBar</title>
+    <title>Abhijeet's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
-
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
 
 
-        header {
-            height: 750px;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        .logocontainer {
-
-            display: block;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        .developer {
-            font-size: 25px;
-            margin-left: 20px;
-            margin-top: 20px;
-            color: white;
-            background-color: rgb(78, 78, 244);
-            padding: 12px;
-            display: inline-block;
-            width: auto;
-        }
-
-        .navBar {
-            float: right;
-            display: block;
-            overflow: auto;
-        }
-
-        .navBar ul li {
-            display: inline-block;
-            font-size: 25px;
-            margin-right: 20px;
-            margin-top: 20px;
-            color: white;
-
-            padding: 12px;
-            display: inline-block;
-            width: auto;
-            list-style: none;
-
-
-        }
-
-        .container {
-            margin-top: 200px;
-            margin-left: 80px;
-        }
-
-        .name {
-            font-size: 65px;
-
-            text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        .topname {
-            font-size: 55px;
-            text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        .profileImage {
-            height: 350px;
-            width: 350px;
-            border-radius: 50%;
-            border: 5px solid black;
-            float: right;
-            margin-right: 100px;
-            margin-top: 70px;
-
-        }
-
-        .socialLinks {
-            display: block;
-
-            text-align: center;
-
-        }
-
-        .socialcards {
-            display: inline-block;
-            border-radius: 50%;
-            border: 1px solid black;
-            height: 60px;
-            width: 60px;
-            margin-left: 65px;
-            margin-top: 55px;
-            background-size: cover;
-            background-position: center;
-
-        }
-    </style>
 </head>
 
 <body>
     <!--     
     Creating Navigation menu -->
-
     <header>
-        <div class="logocontainer">
-            <h2 class="developer">DEVELOPER</h2>
+        <nav>
+            <div class="left">Abhijeet's Portfolio</div>
+            <div class="right">
 
-            <!-- Navigation bar -->
-            <nav class="navBar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="aboutMe.html">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Experience</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
                 </ul>
-            </nav>
-        </div>
-
-        <div class="container">
-            <!-- <img src="home.jpg" alt="" class="profileImage"> -->
-            <h2 class="topname">Hi I ' m</h2>
-            <h1 class="name">Abhijeet Vishwakarma</h1>
-        </div>
-
-
-        <div class="socialLinks">
-
-            <div class="socialcards" style="background-image: url('github.png')">
-
             </div>
-            <div class="socialcards" style="background-image: url('google-plus.png')">
-
-            </div>
-            <div class="socialcards" style="background-image: url('linkedin.png')">
-
-            </div>
-        </div>
-
-
+        </nav>
     </header>
-    <hr>
+
     <main>
-        <div class="aboutMe">
-            <img src="home.jpg" alt="" class="profileImage">
-        </div>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is
+                <span class="purple">Abhijeet</span>
+
+
+                <div>and I am a passionate
+
+
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="H10.png" alt="">
+            </div>
+
+
+        </section>
+
+
+
+        <hr>
+
+        <section class="SecondSection">
+            <div class="imageContainer">
+                <img src="home.jpg" alt="" class="profileImage">
+            </div>
+
+            <div class="AboutMeContainer">
+                <div class="vertical-About">
+                    <h1>About Me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio, culpa temporibus dolor,
+                        esse, iure distinctio quisquam tempora natus placeat in quam. Qui, placeat? Itaque omnis quam
+                        corrupti, sint incidunt nemo fuga. Omnis blanditiis commodi tempore ad dolores est nam
+                        consequuntur sed expedita quos, impedit itaque accusamus assumenda ab! Quis est cum natus magnam
+                        rem?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio, culpa temporibus dolor,
+                        esse, iure distinctio quisquam tempora natus placeat in quam. Qui, placeat? Itaque omnis quam
+                        corrupti, sint incidunt nemo fuga. Omnis blanditiis commodi tempore ad dolores est nam
+                        consequuntur sed expedita quos, impedit itaque accusamus assumenda ab! Quis est cum natus magnam
+                        rem?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="ThirdSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+
+            <div class="workContainer">
+                <div class="vertical">
+                    <h2>Flutter Developer Oyebusy Technologies</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio, culpa temporibus dolor,
+                        esse, iure distinctio quisquam tempora natus placeat in quam. Qui, placeat? Itaque omnis quam
+                        corrupti, sint incidunt nemo fuga. Omnis blanditiis commodi tempore ad dolores est nam
+                        consequuntur sed expedita quos, impedit itaque accusamus assumenda ab! Quis est cum natus magnam
+                        rem?
+                    </p>
+
+                </div>
+            </div>
+            <div class="workContainer">
+                <div class="vertical">
+                    <h2>Frontend Developer IBM Skill Program</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio, culpa temporibus dolor,
+                        esse, iure distinctio quisquam tempora natus placeat in quam. Qui, placeat? Itaque omnis quam
+                        corrupti, sint incidunt nemo fuga. Omnis blanditiis commodi tempore ad dolores est nam
+                        consequuntur sed expedita quos, impedit itaque accusamus assumenda ab! Quis est cum natus magnam
+                        rem?
+                    </p>
+                </div>
+            </div>
+            <div class="workContainer">
+                <div class="vertical">
+                    <h2>7DevDays &nbsp;Mentor</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio, culpa temporibus dolor,
+                        esse, iure distinctio quisquam tempora natus placeat in quam. Qui, placeat? Itaque omnis quam
+                        corrupti, sint incidunt nemo fuga. Omnis blanditiis commodi tempore ad dolores est nam
+                        consequuntur sed expedita quos, impedit itaque accusamus assumenda ab! Quis est cum natus magnam
+                        rem?
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="FourthSection">
+
+            <h1>Projects</h1>
+
+            <div class="projectContainer">
+
+                <div class="projectBox">
+                    <img src="sportal.png" alt="" class="ProjectImage">
+                    <h2 style="text-align: center; font-size: 1.5rem; font-family: 'Poppins';">Student Portal
+                        Application</h2>
+                </div>
+            </div>
+            <div class="projectContainer">
+                <div class="projectBox">
+                    <img src="portfolio.png" alt="" class="ProjectImage">
+                    <h1 style="text-align: center; font-size: 1.5rem;">Personal <br>Portfolio</h1>
+
+                </div>
+            </div>
+            <div class="projectContainer">
+                <div class="projectBox">
+                    <img src="OCR.png" alt="" class="ProjectImage">
+                    <h1 style="text-align: center; font-size: 1.5rem;;">Image to Text <br>Converter App</h1>
+
+                </div>
+            </div>
+
+        </section>
+
+
     </main>
 
-    <!-- 
-    <header>
-
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutMe.html">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-
-
-
-            </ul>
-        </nav>
-
-
-
-    </header>
 
 
 
 
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer', 'Flutter Developer'],
+            typeSpeed: 50,
 
-    <div class="HomeContainer">
-        <div class="Home">
-
-            <div class="profileImage">
-                <img src="home.jpg" alt="" class="homeImage">
-            </div>
-
-        </div>
-
-        <div class="container">
+        });
+    </script>
 
 
-            <h1 class="name">Abhijeet Vishwakarma</h1><br>
-            <a href="" class="socialLinks">
-                <div class="socialContainer">
-                    <img src="github.png" alt="Github">
-                </div>
-            </a>
-            <a href="" class="socialLinks">
-                <div class="socialContainer">
-                    <img src="google-plus.png" alt="google">
-                </div>
-            </a>
-            <a href="https://www.linkedin.com/in/abhijeet-vishwakarma/" class="socialLinks">
-                <div class="socialContainer">
-                    <img src="linkedin.png" alt="Linkedin">
-                </div>
-            </a>
-
-
-
-        </div>
-
-    </div>
- -->
 
 
 </body>
